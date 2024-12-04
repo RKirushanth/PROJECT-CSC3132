@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Consultation</title>
+    <link rel="stylesheet" href="online consultations.css">
+</head>
+<body>
+
+    <section id="online-consultation">
+        <h2>Online Consultation</h2>
+        <p>Our online consultations allow you to connect with experienced medical professionals from the comfort of your home. Whether you need a quick consultation or a detailed medical assessment, we are here to help.</p>
+
+        <h3>How It Works:</h3>
+        <ol>
+            <li>Fill out the form below to schedule your consultation.</li>
+            <li>Choose your preferred doctor and time slot.</li>
+            <li>We'll send you a confirmation email with your appointment details.</li>
+            <li>Join the video consultation at the scheduled time through the provided link.</li>
+        </ol>
+
+        <h3>Pricing:</h3>
+        <ul>
+            <li>Initial Consultation: $50</li>
+            <li>Follow-Up Consultation: $30</li>
+            <li>Specialist Consultation: $100</li>
+        </ul>
+
+        <h3>Book Your Consultation</h3>
+        <div class="form-container">
+            <form action="#" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="doctor">Select Doctor:</label>
+                <select id="doctor" name="doctor" required>
+                    <option value="general">Dr. John Doe (General Practitioner)</option>
+                    <option value="specialist">Dr. Jane Smith (Cardiologist)</option>
+                    <option value="pediatric">Dr. Emily Davis (Pediatrician)</option>
+                </select>
+
+                <label for="time-slot">Select Time Slot:</label>
+                <input type="datetime-local" id="time-slot" name="time-slot" required>
+
+                <button type="submit">Book Consultation</button>
+            </form>
+        </div>
+
+        <p>Need help? <a href="contact.html">Contact us</a> for more information.</p>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+    background-image: url('digital-health.jpg');
+}
+
+section#about {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section#about h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+section#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #495057;
+}
